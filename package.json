@@ -1,0 +1,24 @@
+{
+  "name": "devconnector2",
+  "version": "1.0.0",
+  "description": "A social media website for developers based on the Udemy course MERN Stack Front To Back: Full Stack React, Redux and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgers/DevConnector2.git"
+  },
+  "keywords": [
+    "Brad",
+    "Traversy",
+    "DevConnector"
+  ],
+  "author": "Craig Gers based on the work of Brad Brad Traversy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgers/DevConnector2/issues"
+  },
+  "homepage": "https://github.com/cgers/DevConnector2#readme"
+}
