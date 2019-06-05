@@ -4,7 +4,8 @@
   "description": "A social media website for developers based on the Udemy course MERN Stack Front To Back: Full Stack React, Redux and Node.js",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,19 @@
   "bugs": {
     "url": "https://github.com/cgers/DevConnector2/issues"
   },
-  "homepage": "https://github.com/cgers/DevConnector2#readme"
+  "homepage": "https://github.com/cgers/DevConnector2#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.12",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.1"
+  }
 }
